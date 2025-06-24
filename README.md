@@ -3,6 +3,20 @@
 
 A real-time surveillance solution designed to detect accidents from live CCTV or video streams using computer vision and deep learning techniques. Once an accident is detected, the system immediately triggers an alert to emergency responders, reducing response time and potentially saving lives.
 
+#Requirements
+1.Download and install Anaconda Distribution
+2.Create account in Twilio which provides paid programmable communication tools, we can also use 7-days free trial
+
+#Procedure
+1.Download the files and extract it in "C:\Users\Admin" path.
+2.Launch Jupyter notebook from anaconda Navigator.
+3.Open the folder in Jupyter notebook.
+4.Create Account in Twilio.
+5.Get virtual phone number, account sid and auth token for your Twilio account.
+6.Enter those details in "Accident Detection-Video.ipynb" program file.
+7.Also enter the phone number which you have to send the SMS.
+8.Now, Run the code.
+
 #📌 Table of Contents
 
 - [Features](#-features)
@@ -32,16 +46,13 @@ A real-time surveillance solution designed to detect accidents from live CCTV or
 |---------------|--------------------------|
 | Language      | Python                   |
 | CV Model      | OpenCV, YOLOv5 / TensorFlow |
-| Backend       | Flask / FastAPI          |
 | Alerts        | Twilio (SMS) / SMTP (Email) |
-| Deployment    | Localhost / Cloud / Raspberry Pi |
-| UI (Optional) | HTML/CSS/JS or Streamlit |
+| Deployment    | Localhost / Cloud /  |
+
 
 
 
 #🧠 Architecture
-
-## 🧠 Architecture
 
 The system follows a modular pipeline for real-time accident detection and alerting:
 
