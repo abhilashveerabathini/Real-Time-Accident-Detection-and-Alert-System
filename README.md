@@ -1,5 +1,4 @@
-# Real-Time-Accident-Detection-and-Alert-System
-A real-time system that detects accidents using CCTV/video feeds and sends instant alerts to emergency services using computer vision and automation.
+ 
 # 🚨 Real-Time Accident Detection and Alert System
 
 A real-time surveillance solution designed to detect accidents from live CCTV or video streams using computer vision and deep learning techniques. Once an accident is detected, the system immediately triggers an alert to emergency responders, reducing response time and potentially saving lives.
